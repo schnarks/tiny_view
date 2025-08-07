@@ -1,0 +1,2 @@
+#/bin/sh
+exec ./tiny_view ~/.fonts/nerd-fonts/JetBrains\ Mono\ Regular\ Nerd\ Font\ Complete.ttf $1
