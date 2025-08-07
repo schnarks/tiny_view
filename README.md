@@ -1,25 +1,22 @@
 # tiny_view
-
-The tiny image viewer written in C using SDL2. Written in a few hours
+The tiny image viewer i ever wanted, written in C using SDL2. Hacked together very badly (in a few hours). All the Heavy liftig is done by SDL2
 
 ## Controls
+- arrow right / l -> next image (in the same folder)
+- arrow left / h -> previous image (in the same folder)
+- arrow up / k -> zoom in
+- arrow down / j -> zoom out
 
-arrow right / l -> next image (in the same folder)
-arrow left / h -> previous image (in the same folder)
-arrow up / k -> zoom in
-arrow down / j -> zoom out
+- w -> move view up / picture down
+- s -> move view down / picture up
+- a -> move view left / picture right
+- d -> move view right / picture left
 
-w -> move view up / picture down
-s -> move view down / picture up
-a -> move view left / picture right
-d -> move view right / picture left
+- : -> show command bar 
+    - the program specified will be executed with the filepath of the image as arg1
+    - but if cmd is q -> exit program for all vim users who cant escape
 
-: -> show command bar 
-	- the program specified will be executed with the filepath of the image as arg1
-  	- Special CMDs
-	- q -> exit program for all vim users who cant escape
-
-CTRL+q / CTRL+C -> exit program
+- CTRL+q / CTRL+C -> exit program
 
 ## Config
 - only config implemented right now is the ttf font for the cmd line.
